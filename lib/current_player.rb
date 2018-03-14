@@ -5,4 +5,5 @@ def turn_count(board)
       occupied += 1
     end
   end
+  return occupied
 end
