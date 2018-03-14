@@ -7,3 +7,7 @@ def turn_count(board)
   end
   return occupied
 end
+
+def current_player(board)
+  turn_count(board) % 2 == 1 ? 'O' : 'X'
+end
